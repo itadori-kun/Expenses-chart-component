@@ -181,7 +181,7 @@ body {
     font-style: normal;
 }
 
-.rectangle:hover span {
+.rectangle:hover span, .rectangle:active span {
     display: block;
 }
 
@@ -340,11 +340,3 @@ body {
         font-size: 1.35rem;
     }
     }
-body.nontouch .rectangle:hover span{
-    display: block;
-}
-@media(hover: hover) and (pointer: fine) {
-    .rectangle:hover span {
-        display: block;
-    }
-}
