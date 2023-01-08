@@ -339,3 +339,8 @@ body {
         font-size: 1.35rem;
     }
     }
+@media(hover: hover) and (pointer: fine) {
+    .rectangle:hover span {
+        display: block;
+    }
+}
